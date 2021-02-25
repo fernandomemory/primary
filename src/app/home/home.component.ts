@@ -1,4 +1,4 @@
-import { Component, OnInit, Inject, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { IpServiceService } from '../ip-service.service'; 
 
  
@@ -43,7 +43,4 @@ export class HomeComponent implements OnInit {
     });  
   } 
   
-  ngAfterViewInit(){
-    this.load_completed = true;
-  }
 }
